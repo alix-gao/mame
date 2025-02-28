@@ -33,6 +33,12 @@ If you're on a UNIX-like system (including Linux and macOS), it could be as easy
 make
 ```
 
+for my mbp14, it is
+
+```
+make CXXFLAGS="-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.sdk" CFLAGS="-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.sdk"
+```
+
 for a full build,
 
 ```
